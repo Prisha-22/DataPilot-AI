@@ -2,6 +2,8 @@
 
 ## Explainable, Task-Aware Decision Support for Retail Sales & Inventory Management
 
+🚀 [Live Demo](https://datapilot-ai-22.streamlit.app/) · [GitHub Repository](https://github.com/Prisha-22/DataPilot-AI)
+
 DataPilot AI is an AI-powered retail analytics and decision-support application that allows a manager to upload a retail dataset, describe a business objective in natural language, and receive an evidence-based analysis.
 
 The system combines traditional data analytics, task-aware AI agents, semantic retrieval (RAG), demand forecasting, and interactive visualization.
