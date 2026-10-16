@@ -1,3 +1,12 @@
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?logo=streamlit)](https://datapilot-ai-22.streamlit.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/Prisha-22/DataPilot-AI)
+
+**Live Demo:** https://datapilot-ai-22.streamlit.app/  
+**Source Code:** https://github.com/Prisha-22/DataPilot-AI
+
+DataPilot AI is a deployed, explainable retail analytics and decision-support application built with Python, Streamlit, task-aware AI agents, retrieval-augmented generation (RAG), and demand forecasting.
+
+
 # DataPilot AI
 
 ## Explainable, Task-Aware Decision Support for Retail Sales & Inventory Management
@@ -270,6 +279,25 @@ DataPilot-AI/
 Generated runtime files such as the active dataset and RAG vector index are intentionally excluded from version control.
 
 ---
+## Try the Demo Dataset
+
+A small, **fully synthetic retail inventory dataset** is included for testing the application without using the original project dataset.
+
+**File:** `sample_data/synthetic_retail_inventory.csv`
+
+- 540 rows and 15 columns
+- 2 stores and 3 products
+- 90 consecutive days
+- Generated sample data; values do not represent actual retail transactions.
+
+To try it:
+1. Open the [live application](https://datapilot-ai-22.streamlit.app/).
+2. Upload `sample_data/synthetic_retail_inventory.csv` from this repository.
+3. Explore the available analysis options and try a demand forecast.
+
+The live app may require a valid API configuration for AI-powered features. Forecasting results on synthetic data are demonstrations, not evidence of real-world predictive accuracy.
+
+git status --short
 
 ## Installation
 
