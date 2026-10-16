@@ -1,0 +1,34 @@
+# Environment / secrets
+.env
+
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Streamlit
+.streamlit/
+
+# Generated active dataset
+data/processed/active_retail_data.csv
+
+# Generated RAG vector index
+data/processed/rag_index.json
+
+# Logs
+*.log
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local datasets and generated data
+data/raw/
+data/processed/
